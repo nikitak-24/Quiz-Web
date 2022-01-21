@@ -1,0 +1,93 @@
+body{
+    height: 100vh;
+    background: rgb(202, 200, 200) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    overflow: hidden;
+    border: 0 !important;
+    border-radius: 20px !important;
+    box-shadow: 0 1rem 1rem grey;
+    height: 75vh;
+}
+.img-left{
+    width: 45%;
+    background: url("./img/final.png") center;
+    background-size: cover;
+}
+.card-body{
+    padding: 2rem;
+}
+.title{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+.form-input{
+    position: relative;
+}
+.msg{
+    margin-bottom: 8px;
+    font-size: 0.9rem;
+}
+.form-input input{
+    width: 100%;
+    height: 45px;
+    padding-left: 40px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border: 1px solid #f7d309;
+    border-radius: 5px;
+    outline: none;
+    background: transparent;
+}
+#state{
+    border: 1.5px solid #f7d309;
+    height: 45px;
+}
+#state:hover{
+    border: 1.5px solid #f7d309;
+    height: 45px;
+}
+
+.form-input span{
+    position: absolute;
+    top: 42px;
+    padding-left: 15px;
+    color: #f7d309;
+}
+.form-input input::placeholder{
+    padding-left: 0px;
+}
+.form-input input:focus, .form-input input:valid{
+    border: 1px solid #f7d309;
+}
+.form-box button[type="submit"]{
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    background: black;
+    color: white;
+    width: 50%;
+    font-size: 90%;
+    transition: 0.1s ease;
+    padding: 10px;
+}
+.form-box button[type="submit"]:hover{
+    background: #f7d309;
+}
+.form-box .btn-social{
+    color: white !important;
+    border: 0;
+    font-weight: bold;
+}
+.form-box .btn-google{
+    background: #da3f34 ;
+}
+.form-box .btn-google:hover{
+    background: #bf3b31 ;
+}
